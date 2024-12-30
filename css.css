@@ -1,0 +1,53 @@
+* {
+    font-family: "微軟正黑體", Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.types {
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #999;
+    border-radius: 50px;
+    box-shadow: 2px 2px 5px #ccc;
+    text-align: center;
+    position: relative;
+    transition: all 0.5s ease;
+    transform: scale(1);
+    top: 0;
+}
+
+.types:hover {
+    border: 2px solid blue;
+    background: lightcyan;
+    transition: all 0.5s ease;
+    transform: scale(1.08);
+    top: -4px;
+}
+
+.header {
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+    font-size: 32px;
+}
+
+ul li {
+    margin: 5px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 10px #999;
+}
+
+ul li:hover {
+    background: lightgreen;
+    padding: 8px 13px;
+    font-size: 18px;
+    transition: 0.3s;
+}
