@@ -1,4 +1,5 @@
-# Q_MD
+# Q_MD update 2025/01/09
+
 ## 問題庫
 ### *[BASIC](https://github.com/maplesift/Q_MD/tree/main/BASIC)*
 - 物件導向OOP_Introduction
