@@ -1,4 +1,4 @@
-# Q_MD update 2025/01/30
+# Q_MD update 2025/01/31
 
 ## 問題庫
 ### *[BASIC](https://github.com/maplesift/Q_MD/tree/main/BASIC)*
