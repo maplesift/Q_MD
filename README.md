@@ -12,6 +12,7 @@
 - BS5_Carousel_圖片縮小問題
 - BS5_Carousel_Button
 - BS5_icon_圖示使用教學
+
 - BS5_ICON_div_bi_hover_solution
 
 ### *[Css](https://github.com/maplesift/Q_MD/tree/main/css)*
@@ -25,7 +26,11 @@
 - 萬年曆: debug_解決 Warning resolve_undefined_month_warning
 - 使用 PHP 與 MySQL 透過 foreach 生成頁面連結
 - PHP 陣列說明array
+- PHP_問題如何 echo $sql
+- PHP_Batch_Process_Example
+
 - PHP _isset_vs_empty
+- PHP_tmp_key_value_explanation_zh
 
 ### *[Ajax](https://github.com/maplesift/Q_MD/tree/main/ajax)*
 - 如何將 CSV 檔案轉換為 JSON 檔案（Shift-JIS 編碼）
