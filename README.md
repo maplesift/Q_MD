@@ -1,4 +1,4 @@
-# Q_MD update 2025/02/09
+# Q_MD update 2025/02/10
 
 ## 問題庫
 ### *[BASIC](https://github.com/maplesift/Q_MD/tree/main/BASIC)*
@@ -29,9 +29,9 @@
 - PHP 學生介紹頁面：增加「上一頁」與「下一頁」按鈕
 - PHP_問題如何 echo $sql
 - PHP_Batch_Process_Example
-
 - PHP _isset_vs_empty
 - PHP_tmp_key_value_explanation_zh
+- PHP中if($stmt) 的判斷條件說明
 
 ### *[Ajax](https://github.com/maplesift/Q_MD/tree/main/ajax)*
 - 如何將 CSV 檔案轉換為 JSON 檔案（Shift-JIS 編碼）
