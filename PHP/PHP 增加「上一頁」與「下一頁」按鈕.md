@@ -67,3 +67,67 @@ if (isset($_GET['id'])) {
 
 這樣你就可以在頁面底部 **增加「上一頁」與「下一頁」的按鈕** 來瀏覽不同的 `id` 內容了！ 🚀
 
+
+# PHP SQL 語法範例：查詢上一筆與下一筆資料
+
+## **假設資料表 `Introduction`**
+| id | name     | text        | img           |
+|----|---------|------------|--------------|
+| 1  | Alice   | 內容 A     | alice.jpg    |
+| 2  | Bob     | 內容 B     | bob.jpg      |
+| 3  | Charlie | 內容 C     | charlie.jpg  |
+| 4  | David   | 內容 D     | david.jpg    |
+| 5  | Emma    | 內容 E     | emma.jpg     |
+
+---
+
+## **範例 1：查詢 `id = 4` 的上一筆**
+```sql
+SELECT * FROM Introduction
+WHERE id < 4
+ORDER BY id DESC
+LIMIT 1;
+```
+**結果**：
+| id | name | text  | img       |
+|----|------|------|----------|
+| 3  | Charlie | 內容 C | charlie.jpg |
+
+**解釋**：
+- `id < 4` → 過濾出 `id` 小於 4 的資料（`id = 1, 2, 3`）。
+- `ORDER BY id DESC` → 按 `id` 降冪排序（最大 `id` 在最上）。
+- `LIMIT 1` → 只取最接近 `4` 的 `id`，即 `id = 3`。
+
+---
+
+## **範例 2：查詢 `id = 1` 的上一筆**
+```sql
+SELECT * FROM Introduction
+WHERE id < 1
+ORDER BY id DESC
+LIMIT 1;
+```
+**結果**：
+```
+（空結果，因為沒有比 1 更小的 id）
+```
+
+---
+
+## **範例 3：查詢 `id = 5` 的上一筆**
+```sql
+SELECT * FROM Introduction
+WHERE id < 5
+ORDER BY id DESC
+LIMIT 1;
+```
+**結果**：
+| id | name  | text  | img      |
+|----|------|------|---------|
+| 4  | David | 內容 D | david.jpg |
+
+---
+
+這樣的邏輯就是找出 **比當前 `id` 小的最大值**，即 **上一筆記錄**！ 🚀
+
+
