@@ -17,6 +17,7 @@
 
 ### *[Css](https://github.com/maplesift/Q_MD/tree/main/css)*
 - css選擇器問題
+- css_子選單使用transition動畫效果
 
 ### *[JS](https://github.com/maplesift/Q_MD/tree/main/JS)*
 - js_按鈕切換toggle_switch_guide
