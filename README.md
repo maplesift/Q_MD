@@ -1,4 +1,4 @@
-# Q_MD update 2025/02/19
+# Q_MD update 2025/02/27
 
 ## 問題庫
 ### *[BASIC](https://github.com/maplesift/Q_MD/tree/main/BASIC)*
@@ -24,7 +24,10 @@
 - js彈出回到頂端說明 
 
 ### *[Laravle](https://github.com/maplesift/Q_MD/tree/main/Laravel)*
+- Laravel Route 使用 .env 變數
+- Laravel_表單資料新增教學
 - Laravel_Routes跟php差異
+- laravel學習指南(2025/02/27)
 
 ### *[PHP](https://github.com/maplesift/Q_MD/tree/main/PHP)*
 - 萬年曆: debug_解決 Warning resolve_undefined_month_warning
