@@ -1,4 +1,4 @@
-# Q_MD update 2025/02/27
+# Q_MD update 2025/04/24
 
 ## 問題庫
 ### *[BASIC](https://github.com/maplesift/Q_MD/tree/main/BASIC)*
@@ -34,6 +34,7 @@
 - 使用 PHP 與 MySQL 透過 foreach 生成頁面連結
 - PHP 陣列說明array
 - PHP 增加「上一頁」與「下一頁」按鈕
+- PHP htmlspecialchars 函數介紹
 - PHP_問題如何 echo $sql
 - PHP_Batch_Process_Example
 - PHP _isset_vs_empty
